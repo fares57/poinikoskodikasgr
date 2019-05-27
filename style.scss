@@ -100,3 +100,38 @@ input[type="checkbox"] {
    border-bottom-left-radius: 0;
 
   }
+  .scroll-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;  
+    bottom: 20px;
+    right: 10px;
+    background-color: ghostwhite;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;;
+    text-align: center;
+    opacity: 0.4;
+    text-decoration: none;
+    
+    /* unvisited link */
+    a:link {
+      color: green;
+    }
+  
+    /* visited link */
+    a:visited {
+      color: green;
+    }
+  
+    /* mouse over link */
+    a:hover {
+      color: green;
+    }
+  
+    /* selected link */
+    a:active {
+      color: green;
+    }
+  }

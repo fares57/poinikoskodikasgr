@@ -17,6 +17,7 @@ $articles = json_decode($data);
     <title>Ποινικός Κώδικας</title>
 </head>
 <body>
+<a href="#" class="scroll-top">&#x261D</a>
 <?php foreach($articles as $arr){
     ?><div class="wrap-collapsible">
     <input type="checkbox" id="<?php echo 'collapsible'.$arr->Article;?>" class="toggle">
