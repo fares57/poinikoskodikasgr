@@ -15,7 +15,7 @@ $articles = json_decode($data);
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
-
+    <meta name="robots" content="noindex" />
     <title>Ποινικός Κώδικας</title>
 </head>
 <body>
