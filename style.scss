@@ -18,8 +18,6 @@ body{
     max-width: 700px;
     margin: auto;    
     background-color: $color3;
-    padding-left: 2px;
-    padding-right: 2px;
 }
 
 .wrap-collapsible{
@@ -87,7 +85,7 @@ input[type="checkbox"] {
 }
 
 .toggle:checked + .lbl-toggle + .collapsible-content{
-    max-height: 3000px;
+    max-height: 1000px;
 
 }
 
@@ -98,42 +96,40 @@ input[type="checkbox"] {
 .toggle:checked + .lbl-toggle {
    border-bottom-right-radius: 0;
    border-bottom-left-radius: 0;
-
   }
-  
 
-  .scroll-top{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: fixed;  
-    bottom: 20px;
-    right: 10px;
-    background-color: ghostwhite;
-    border-radius: 100%;
-    width: 50px;
-    height: 50px;;
-    text-align: center;
-    opacity: 0.4;
-    text-decoration: none;
-    
-    /* unvisited link */
-    a:link {
-      color: green;
-    }
+.scroll-top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;  
+  bottom: 20px;
+  right: 10px;
+  background-color: ghostwhite;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;;
+  text-align: center;
+  opacity: 0.4;
+  text-decoration: none;
   
-    /* visited link */
-    a:visited {
-      color: green;
-    }
-  
-    /* mouse over link */
-    a:hover {
-      color: green;
-    }
-  
-    /* selected link */
-    a:active {
-      color: green;
-    }
+  /* unvisited link */
+  a:link {
+    color: green;
   }
+
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: green;
+  }
+
+  /* selected link */
+  a:active {
+    color: green;
+  }
+}
