@@ -5,8 +5,6 @@ $articles = json_decode($data);
 ?>
 
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
