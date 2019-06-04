@@ -1,10 +1,3 @@
-<?php
-$data = file_get_contents("./law.json");
-$articles = json_decode($data);
-// echo $articles[1]->Text;
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,8 +8,31 @@ $articles = json_decode($data);
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
     <meta name="robots" content="noindex" />
     <title>Ποινικός Κώδικας</title>
+    <meta name="keywords" content="Ποινικός Κώδικας"/>
+    <meta name="description" content="Ο ελληνικός Ποινικός Κώδικας με όλα τα άρθρα που καλύπτει το γενικό μέρος και όλα τα εγκλήματα"/>
+    <meta name="subject" content="Ποινικός Κώδικας">
+    <meta name="copyright"content="G.Koutivas L.I.T.">
+    <meta name="language" content="EL">
+    <meta name="robots" content="index,follow" />
+    <meta name="topic" content="Νομοθεσία">
+    <meta name="summary" content="Ολόκληρο το κείμενο του Ποινικού Κώδικα της Ελλάδας">
+    <meta name="Classification" content="Business">
+    <meta name="author" content="Giannis Koutivas, i.koutivas@gmail.com">
+    <meta name="designer" content="Giannis Koutivas">
+    <meta name="reply-to" content="email@hotmail.com">
+    <meta name="owner" content="Giannis Koutivas - Γιάννης Κουτίβας">
+    <meta name="url" content="http://poinikoskodikas.gr/">
+    <meta name="coverage" content="Worldwide">
+    <meta name="distribution" content="Global">
+    <meta name="rating" content="General"> 
+    
 </head>
 <body>
+<?php
+$data = file_get_contents("./law.json");
+$articles = json_decode($data);
+// echo $articles[1]->Text;
+?>
 <a href="#" class="scroll-top">&#x261D</a>
 <?php foreach($articles as $arr){
     ?><div class="wrap-collapsible">
