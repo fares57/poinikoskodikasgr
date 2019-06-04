@@ -16,7 +16,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
-    <meta name="robots" content="noindex" />
     <title>Ποινικός Κώδικας</title>
     <meta name="keywords" content="Ποινικός Κώδικας"/>
     <meta name="description" content="Ο ελληνικός Ποινικός Κώδικας με όλα τα άρθρα που καλύπτει το γενικό μέρος και όλα τα εγκλήματα"/>
