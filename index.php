@@ -42,11 +42,14 @@ $data = file_get_contents("./law.json");
 $articles = json_decode($data);
 // echo $articles[1]->Text;
 ?>
+<h1 style="text-align: center;">Ποινικός Κώδικας</h1>
 <a href="#" class="scroll-top">&#x261D</a>
 <?php foreach($articles as $arr){
     ?><div class="wrap-collapsible" id="<?php echo 'pk'.$arr->Article;?>">
     <input type="checkbox" id="<?php echo 'collapsible'.$arr->Article;?>" class="toggle">
-    <label for="<?php echo 'collapsible'.$arr->Article;?>" class="lbl-toggle"><?php echo 'Αρθρο '.$arr->Article;?></label>
+    <label for="<?php echo 'collapsible'.$arr->Article;?>" class="lbl-toggle"><h2 style="display:inline;">
+        <?php echo 'Αρθρο '.$arr->Article;?>
+    </h2></label>
     <div class="collapsible-content">
         <div class="content-inner">
             <p><?php echo $arr->Text;?></p>
