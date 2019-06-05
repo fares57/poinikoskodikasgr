@@ -44,7 +44,7 @@ $articles = json_decode($data);
 ?>
 <a href="#" class="scroll-top">&#x261D</a>
 <?php foreach($articles as $arr){
-    ?><div class="wrap-collapsible" id="<?php echo 'pk'.$arr->Article;?>>
+    ?><div class="wrap-collapsible" id="<?php echo 'pk'.$arr->Article;?>">
     <input type="checkbox" id="<?php echo 'collapsible'.$arr->Article;?>" class="toggle">
     <label for="<?php echo 'collapsible'.$arr->Article;?>" class="lbl-toggle"><?php echo 'Αρθρο '.$arr->Article;?></label>
     <div class="collapsible-content">
