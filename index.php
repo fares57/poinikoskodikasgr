@@ -3,6 +3,7 @@
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141389804-1"></script>
+<script async src="./script.js"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -51,6 +52,10 @@ $articles = json_decode($data);
 ?>
 <h1 style="text-align: center;">Ποινικός Κώδικας</h1>
 <a href="#" class="scroll-top">&#x261D</a>
+<input type="tel" name="articlenum" id="articlenum" size="3" maxlength="3" value="ΑΡΘΡΟ">
+<a href="#" id='thebutton'>&#x1F50D</a>
+
+
 <?php foreach($articles as $arr){
     ?><div class="wrap-collapsible" id="<?php echo 'pk'.$arr->Article;?>">
     <input type="checkbox" id="<?php echo 'collapsible'.$arr->Article;?>" class="toggle">
