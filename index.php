@@ -52,8 +52,8 @@ $articles = json_decode($data);
 ?>
 <h1 style="text-align: center;">Ποινικός Κώδικας</h1>
 <a href="#" class="scroll-top">&#x261D</a>
-<input type="tel" name="articlenum" id="articlenum" size="3" maxlength="3" value="ΑΡΘΡΟ">
-<a href="#" id='thebutton'>&#x1F50D</a>
+<input type="tel" name="articlenum" id="articlenum" size="3" maxlength="3" placeholder="ΑΡΘΡΟ">
+<!-- <a href="#" id='thebutton'>&#x1F50D</a> -->
 
 
 <?php foreach($articles as $arr){
