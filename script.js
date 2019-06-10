@@ -6,6 +6,6 @@ var button = document.getElementById("thebutton");
 // })
 
 num.addEventListener("change", function(){
-    console.log("function runs");
     window.location.href = 'https://poinikoskodikas.gr/#pk'+num.value;
+    num.value = '';
 })
