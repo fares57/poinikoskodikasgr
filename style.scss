@@ -169,3 +169,40 @@ input[type="checkbox"] {
     opacity: 0.6;
     text-decoration: none;
   }
+
+  .form-link{
+    cursor: grab;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;  
+    bottom: 10px;
+    left: 50%;
+    transform: translatex(-50%);
+    background-color: ghostwhite;    
+    height: 20px;
+    text-align: center;
+    opacity: 0.8;
+    text-decoration: none;
+    font-size: small;
+    
+    /* unvisited link */
+    a:link {
+      color: green;
+    }
+  
+    /* visited link */
+    a:visited {
+      color: green;
+    }
+  
+    /* mouse over link */
+    a:hover {
+      color: green;
+    }
+  
+    /* selected link */
+    a:active {
+      color: green;
+    }
+  }

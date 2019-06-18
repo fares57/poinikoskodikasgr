@@ -52,6 +52,7 @@ $articles = json_decode($data);
 ?>
 <h1 style="text-align: center;">Ποινικός Κώδικας</h1>
 <a href="#" class="scroll-top">&#x261D</a>
+<a href="https://forms.gle/tBnr9SWib2BQsoVR8" class="form-link" target="_blank">&#x2757 Κάνε μας καλύτερους &#x2757</a>
 <input type="tel" name="articlenum" id="articlenum" size="3" maxlength="3" placeholder="ΑΡΘΡΟ">
 <!-- <a href="#" id='thebutton'>&#x1F50D</a> -->
 
